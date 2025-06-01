@@ -136,10 +136,3 @@ destroy       Destroy previously-created infrastructure
 ```
 fmt           Reformat your configuration in the standard style
 ```
-
-## Cloud Shell Instructions (PowerShell)
-```
-mkdir terraform
-New-Item main.tf
-Remove-Item -Path ./terraform/ -Recurse
-```
